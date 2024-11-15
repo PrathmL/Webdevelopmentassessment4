@@ -1,0 +1,16 @@
+/* Change text color of all paragraphs to green and set font size to 18px */
+p {
+    color: green;
+    font-size: 18px;
+}
+
+/* Style all elements with the class .highlight */
+.highlight {
+    background-color: yellow;
+    color: black;
+}
+
+/* Apply a red background color to the element with id="main" */
+#main {
+    background-color: red;
+}

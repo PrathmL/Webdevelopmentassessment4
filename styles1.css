@@ -1,0 +1,13 @@
+/* Styling for the heading */
+h1 {
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Styling for the paragraph */
+p {
+    color: green;
+    font-size: 18px;
+    text-align: justify;
+}

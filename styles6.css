@@ -1,0 +1,35 @@
+/* Button with hover effect */
+.hover-button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.hover-button:hover {
+    background-color: green; /* Change background color on hover */
+}
+
+/* Bouncing ball animation */
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    animation: bounce 2s infinite; /* Apply bounce animation */
+}
+
+@keyframes bounce {
+    0%, 100% {
+        top: 0;
+    }
+    50% {
+        top: 200px; /* Adjust this value to control the bounce height */
+    }
+}
+    
